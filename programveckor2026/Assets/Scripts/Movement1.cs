@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Movement : MonoBehaviour
+public class Movement1 : MonoBehaviour
 {
 
     Rigidbody2D rb;
