@@ -1,10 +1,11 @@
 using System.Collections;
+using TMPro;
 using UnityEngine;
 
 public class NPC : MonoBehaviour
 {
 
-    public GameObject dialougePanel;
+    public GameObject DialougePanel;
     public TextMeshProUGUI dialougeText;
     public string[] dialouge;
     private int index;
@@ -19,13 +20,13 @@ public class NPC : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.E) && playerIsClose)
         {
-            if (dialougePanel.activeInHierarchy)
+            if (DialougePanel.activeInHierarchy)
             {
                 zeroText();
             }
             else
             {
-                dialougePanel.SetActive(true);
+                DialougePanel.SetActive(true);
                 StartCoroutine(Typing());
             }
         }
@@ -40,7 +41,7 @@ public class NPC : MonoBehaviour
     {
         dialougeText.text = "";
         index = 0;
-        dialougePanel.SetActive(false);
+        DialougePanel.SetActive(false);
     }
 
     IEnumerator Typing()
