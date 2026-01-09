@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Movement : MonoBehaviour
+public class Movement1 : MonoBehaviour
 {
     Rigidbody2D rb;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
