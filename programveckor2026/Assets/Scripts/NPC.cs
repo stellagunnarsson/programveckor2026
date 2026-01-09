@@ -12,13 +12,13 @@ public class NPC : MonoBehaviour
 
     public GameObject contButton;
     public float wordSpeed;
-    public bool playerIsClose;
+    public bool PlayerIsClose;
 
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.E) && playerIsClose)
+        if (Input.GetKey(KeyCode.E) && PlayerIsClose)
         {
             if (DialougePanel.activeInHierarchy)
             {
@@ -75,7 +75,7 @@ public class NPC : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            playerIsClose = true;
+            PlayerIsClose = true;
         }
     }
 
@@ -83,7 +83,7 @@ public class NPC : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            playerIsClose = false;
+            PlayerIsClose = false;
             zeroText();
         }
     }
