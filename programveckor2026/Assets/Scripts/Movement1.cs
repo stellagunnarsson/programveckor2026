@@ -2,11 +2,7 @@ using UnityEngine;
 
 public class Movement1 : MonoBehaviour
 {
-
     Rigidbody2D rb;
-
-    float speed = 4f;
-
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -16,28 +12,23 @@ public class Movement1 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.W))
-        {
-            rb.linearVelocityX = 0;
-            rb.linearVelocityY = speed;
-        }
+        rb.linearVelocity = new Vector2(0, 0);
 
-        if (Input.GetKeyDown(KeyCode.D))
+        if (Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.W))
         {
-            rb.linearVelocityY = 0;
-            rb.linearVelocityX = speed;
-        }
+            if (transform.position.y < 4)
+            {
+                rb.linearVelocity = new Vector2(0, 5);
+            }
 
-        if (Input.GetKeyDown(KeyCode.S))
-        {
-            rb.linearVelocityY = -speed;
-            rb.linearVelocityX = 0;
         }
-
-        if (Input.GetKeyDown(KeyCode.A))
+        if (Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.S))
         {
-            rb.linearVelocityX = -speed;
-            rb.linearVelocityY = 0;
+            if (transform.position.y > -4)
+            {
+                rb.linearVelocity = new Vector2(0, -5);
+            }
+
         }
 
     }
