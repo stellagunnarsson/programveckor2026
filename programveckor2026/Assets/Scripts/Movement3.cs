@@ -16,26 +16,38 @@ public class Movement3 : MonoBehaviour
 
         if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
         {
-
-            rb.linearVelocity = new Vector2(5, 0);
+            if (transform.position.x < 8.399)
+            {
+                rb.linearVelocity = new Vector2(5, 0);
+            }
 
         }
+
         if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
         {
-
-            rb.linearVelocity = new Vector2(-5, 0);
+            if (transform.position.x > -8.399)
+            {
+                rb.linearVelocity = new Vector2(-5, 0);
+            }
 
         }
+
         if (Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.W))
         {
-
-            rb.linearVelocity = new Vector2(0, 5);
+            if (transform.position.y < 4.5)
+            {
+                rb.linearVelocity = new Vector2(0, 5);
+            }
 
         }
+
         if (Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.S))
         {
+            if (transform.position.y > -4.5)
+            {
+                rb.linearVelocity = new Vector2(0, -5);
+            }
 
-            rb.linearVelocity = new Vector2(0, -5);
 
         }
 
