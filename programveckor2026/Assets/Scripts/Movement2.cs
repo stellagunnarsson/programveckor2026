@@ -16,14 +16,20 @@ public class Movement2 : MonoBehaviour
 
         if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
         {
+            if (transform.position.x < 8.27)
+            {
+                rb.linearVelocity = new Vector2(5, 0);
+            }
 
-            rb.linearVelocity = new Vector2(5, 0);
 
         }
         if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
         {
+            if (transform.position.x > -8.27)
+            {
+                rb.linearVelocity = new Vector2(-5, 0);
+            }
 
-            rb.linearVelocity = new Vector2(-5, 0);
 
         }
 
