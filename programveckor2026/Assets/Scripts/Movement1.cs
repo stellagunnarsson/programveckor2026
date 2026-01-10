@@ -39,5 +39,6 @@ public class Movement1 : MonoBehaviour
             rb.linearVelocityX = -speed;
             rb.linearVelocityY = 0;
         }
+
     }
 }
