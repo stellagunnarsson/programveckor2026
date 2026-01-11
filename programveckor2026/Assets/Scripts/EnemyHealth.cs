@@ -3,9 +3,9 @@ using UnityEngine;
 public class EnemyHealth : MonoBehaviour
 {
     [SerializeField]
-    int maxHealth = 100;
+    int maxHealth = 1;
 
-    int health;
+    int health = 1;
 
     [SerializeField]
     AudioClip hurtSound;
