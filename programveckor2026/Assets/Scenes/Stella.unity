@@ -787,7 +787,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 2.41, y: 2.85}
+  m_Size: {x: 2.51, y: 2.85}
   m_EdgeRadius: 0
 --- !u!70 &1374920768
 CapsuleCollider2D:
@@ -824,7 +824,7 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 1.13, y: 2.14}
+  m_Size: {x: 1.23, y: 2.14}
   m_Direction: 0
 --- !u!212 &1374920769
 SpriteRenderer:

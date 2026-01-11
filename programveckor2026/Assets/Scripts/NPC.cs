@@ -4,78 +4,77 @@ using UnityEngine;
 
 public class NPC : MonoBehaviour
 {
+    public GameObject dialoguePanel;
+    public TextMeshProUGUI dialogueText;
+    public string[] dialogue;
+    private int index = 0;
 
-    public GameObject DialougePanel;
-    public TextMeshProUGUI dialougeText;
-    public string[] dialouge;
-    private int index;
-
-    public GameObject contButton;
     public float wordSpeed;
-    public bool PlayerIsClose;
+    public bool playerIsClose;
 
+
+    void Start()
+    {
+        dialogueText.text = "";
+    }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.E) && PlayerIsClose)
+        if (Input.GetKeyDown(KeyCode.E) && playerIsClose)
         {
-            if (DialougePanel.activeInHierarchy)
+            if (!dialoguePanel.activeInHierarchy)
             {
-                zeroText();
-            }
-            else
-            {
-                DialougePanel.SetActive(true);
+                dialoguePanel.SetActive(true);
                 StartCoroutine(Typing());
             }
-        }
+            else if (dialogueText.text == dialogue[index])
+            {
+                NextLine();
+            }
 
-        if (dialougeText.text == dialouge[index])
+        }
+        if (Input.GetKeyDown(KeyCode.Q) && dialoguePanel.activeInHierarchy)
         {
-            contButton.SetActive(true);
+            RemoveText();
         }
     }
 
-    public void zeroText()
+    public void RemoveText()
     {
-        dialougeText.text = "";
+        dialogueText.text = "";
         index = 0;
-        DialougePanel.SetActive(false);
+        dialoguePanel.SetActive(false);
     }
 
     IEnumerator Typing()
     {
-        foreach (char letter in dialouge[index].ToCharArray())
+        foreach (char letter in dialogue[index].ToCharArray())
         {
-            dialougeText.text += letter;
+            dialogueText.text += letter;
             yield return new WaitForSeconds(wordSpeed);
         }
     }
 
     public void NextLine()
     {
-
-        contButton.SetActive(false);
-
-        if (index < dialouge.Length - 1)
+        if (index < dialogue.Length - 1)
         {
             index++;
-            dialougeText.text = "";
+            dialogueText.text = "";
             StartCoroutine(Typing());
         }
         else
         {
-            zeroText();
+            RemoveText();
         }
     }
-
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
-            PlayerIsClose = true;
+            playerIsClose = true;
         }
     }
 
@@ -83,8 +82,8 @@ public class NPC : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            PlayerIsClose = false;
-            zeroText();
+            playerIsClose = false;
+            RemoveText();
         }
     }
 }
