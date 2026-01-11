@@ -5,7 +5,7 @@ public class EnemyHealth : MonoBehaviour
     [SerializeField]
     int maxHealth = 1;
 
-    int health = 1;
+    int health;
 
     [SerializeField]
     AudioClip hurtSound;
@@ -17,6 +17,7 @@ public class EnemyHealth : MonoBehaviour
 
     private void Start()
     {
+
         audioSource = GetComponent<AudioSource>();
         health = maxHealth;
     }
