@@ -236,7 +236,7 @@ GameObject:
   - component: {fileID: 394498266}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1031,7 +1031,7 @@ MonoBehaviour:
   dialogue:
   - hej
   - "hejd\xE5"
-  wordSpeed: 0
+  wordSpeed: 0.06
   playerIsClose: 0
 --- !u!1 &2075254258
 GameObject:
