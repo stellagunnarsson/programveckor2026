@@ -439,7 +439,8 @@ MonoBehaviour:
     protect those who still live"
   - The first generation from our colony claimed that the God of our world, also
     known as The Savior, will save us one day and bring back how the world was before.
-  - "\u2026 At least that's what they have been telling us.  "
+  - "\u2026"
+  - 'At least that''s what they have been telling us.  '
   wordSpeed: 0.06
   playerIsClose: 0
 --- !u!61 &693249572
