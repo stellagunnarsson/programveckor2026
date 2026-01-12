@@ -238,7 +238,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &749980298
 RectTransform:
   m_ObjectHideFlags: 0
@@ -542,7 +542,7 @@ GameObject:
   - component: {fileID: 1069475040}
   m_Layer: 0
   m_Name: player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -589,7 +589,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -926,9 +926,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1932546387}
   - component: {fileID: 1932546386}
+  - component: {fileID: 1932546388}
   - component: {fileID: 1932546385}
   - component: {fileID: 1932546389}
-  - component: {fileID: 1932546388}
   m_Layer: 0
   m_Name: Square
   m_TagString: Untagged
@@ -1107,9 +1107,9 @@ MonoBehaviour:
   dialoguePanel: {fileID: 749980297}
   dialogueText: {fileID: 1875482734}
   dialogue:
-  - 
-  - 
-  wordSpeed: 0
+  - hej
+  - "hejd\xE5"
+  wordSpeed: 0.06
   playerIsClose: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
