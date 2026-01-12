@@ -1027,7 +1027,7 @@ Transform:
   m_GameObject: {fileID: 1662619754}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.0044073965, z: -0, w: 0.9999903}
-  m_LocalPosition: {x: -7.71, y: -1.9, z: 0.1}
+  m_LocalPosition: {x: -7.22, y: -1.9, z: 0.1}
   m_LocalScale: {x: 1.2459, y: 2.311262, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1142,7 +1142,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f775a5d8ce3bc0b4ea7954f168ba3b8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SceneChanger
-  newSceneName: Scen 3
+  newSceneName: Scen 5
 --- !u!61 &1949804624
 BoxCollider2D:
   m_ObjectHideFlags: 0
