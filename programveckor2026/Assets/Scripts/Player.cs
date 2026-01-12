@@ -17,15 +17,16 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E) && playerIsClose)
+        if (playerIsClose)
         {
             if (!dialoguePanel.activeInHierarchy)
             {
                 dialoguePanel.SetActive(true);
                 StartCoroutine(Typing());
             }
-            else if (dialogueText.text == dialogue[index])
+            else if (dialogueText.text == dialogue[index] && Input.GetKeyDown(KeyCode.E))
             {
+
                 NextLine();
             }
 
@@ -59,7 +60,11 @@ public class Player : MonoBehaviour
         }
         else
         {
-            RemoveText();
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                RemoveText();
+            }
+
         }
     }
 
