@@ -156,7 +156,7 @@ MonoBehaviour:
   dialogue:
   - Hej
   - "Hejd\xE5"
-  wordSpeed: 0
+  wordSpeed: 0.06
   playerIsClose: 0
 --- !u!61 &156766934
 BoxCollider2D:
