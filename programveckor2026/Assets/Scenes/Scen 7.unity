@@ -662,7 +662,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f775a5d8ce3bc0b4ea7954f168ba3b8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SceneChanger
-  newSceneName: Scen 2
+  newSceneName: Scen 6
 --- !u!212 &2046406189
 SpriteRenderer:
   m_ObjectHideFlags: 0
