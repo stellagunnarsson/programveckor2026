@@ -398,7 +398,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 3.36, y: 1.29}
+  m_Size: {x: 6.15, y: 1.29}
   m_EdgeRadius: 0
 --- !u!212 &525727659
 SpriteRenderer:
@@ -508,7 +508,7 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 1.66, y: 1.28}
+  m_Size: {x: 2.1, y: 1.28}
   m_Direction: 0
 --- !u!114 &525727662
 MonoBehaviour:
@@ -540,7 +540,7 @@ GameObject:
   m_Component:
   - component: {fileID: 541266906}
   - component: {fileID: 541266905}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: Background Placeholder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -996,7 +996,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 2.19, y: 1}
   m_EdgeRadius: 0
 --- !u!114 &1335536940
 MonoBehaviour:
@@ -1146,7 +1146,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -1160,7 +1160,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 18.44, y: 10.52}
   m_EdgeRadius: 0
 --- !u!50 &1760848700
 Rigidbody2D:
@@ -1256,7 +1256,7 @@ Transform:
   m_GameObject: {fileID: 1760848697}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.0044073965, z: -0, w: 0.9999903}
-  m_LocalPosition: {x: -7.71, y: -1.9, z: 0.1}
+  m_LocalPosition: {x: -6.41, y: -1.66, z: 0.08}
   m_LocalScale: {x: 0.1, y: 0.2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1338,7 +1338,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1.71, y: 1}
   m_EdgeRadius: 0
 --- !u!212 &1868212463
 SpriteRenderer:
@@ -1555,8 +1555,8 @@ SceneRoots:
   m_Roots:
   - {fileID: 397045749}
   - {fileID: 541266906}
-  - {fileID: 1868212464}
   - {fileID: 1760848702}
   - {fileID: 525727660}
   - {fileID: 735928992}
+  - {fileID: 1868212464}
   - {fileID: 1335536942}
