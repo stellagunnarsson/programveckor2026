@@ -464,7 +464,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
   maxHealth: 1
   hurtSound: {fileID: 0}
-  gameOverSceneName: Scen 9
+  gameOverSceneName: Scen 8
 --- !u!1 &787413126
 GameObject:
   m_ObjectHideFlags: 0
