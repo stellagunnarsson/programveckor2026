@@ -844,8 +844,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 2.4260864, y: -168.24706}
-  m_SizeDelta: {x: -517.9487, y: -399.0522}
+  m_AnchoredPosition: {x: 0, y: -165.22441}
+  m_SizeDelta: {x: 0, y: -393.007}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &989077118
 MonoBehaviour:
@@ -919,7 +919,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 226.69543, y: 155}
+  m_AnchoredPosition: {x: 226.69543, y: 137}
   m_SizeDelta: {x: 351.1303, y: 39.238}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1343746602
@@ -944,8 +944,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Press Space To Throw Knife
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: d18e7d5ab7ab68f4aa438e89ecdc55aa, type: 2}
-  m_sharedMaterial: {fileID: -6462800133631772920, guid: d18e7d5ab7ab68f4aa438e89ecdc55aa, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -969,8 +969,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 6
-  m_fontSizeBase: 6
+  m_fontSize: 8
+  m_fontSizeBase: 8
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1007,7 +1007,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -34.37648, y: 6.012497, z: 119.9005, w: 0}
+  m_margin: {x: -201.22519, y: 6.012497, z: -51.546463, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1358,8 +1358,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: SURVIVE
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: d18e7d5ab7ab68f4aa438e89ecdc55aa, type: 2}
-  m_sharedMaterial: {fileID: -6462800133631772920, guid: d18e7d5ab7ab68f4aa438e89ecdc55aa, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1421,7 +1421,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 51.630775, y: 0, z: 186.01875, w: 0}
+  m_margin: {x: -201.22519, y: 0, z: -51.546463, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
