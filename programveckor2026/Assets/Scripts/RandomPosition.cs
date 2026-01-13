@@ -9,10 +9,10 @@ public class RandomPosition : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        transform.position = new Vector2(-10, 0);
+        transform.position = new Vector2(10, 0);
         var newpos = new Vector2(-10, Random.value);
     }
-    int r = Random.Range(-3, 5);
+    int r = Random.Range(10, 5);
     int fps = 0;
     // Update is called once per frame
     void Update()
@@ -22,7 +22,7 @@ public class RandomPosition : MonoBehaviour
         {
             fps = 0;
             r = Random.Range(minTop, maxTop);
-            transform.position = new Vector2(-10, r);
+            transform.position = new Vector2(10, r);
         }
 
     }
