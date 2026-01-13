@@ -206,7 +206,7 @@ Transform:
   m_GameObject: {fileID: 133040007}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.2649, y: -2.1014, z: 0}
+  m_LocalPosition: {x: 7.68, y: -2.1014, z: 0}
   m_LocalScale: {x: 2.5251565, y: 2.973679, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -227,13 +227,34 @@ MonoBehaviour:
   dialoguePanel: {fileID: 1185487736}
   dialogueText: {fileID: 441873959}
   dialogue:
-  - "G\xE5 o l\xE4gg dig "
-  - innan jag biter dig
+  - "Noctua: \u201CStop right there!\u201D "
+  - "Bonnie\u2019s thoughts: \u201CI\u2019m dead\u201D"
+  - "Noctua: \u201CWhat do you think you\u2019re doing, playing around this close
+    to our Savior\u2019s room?\u201D "
+  - "Bonnie: \u201CExcuse my rudeness, Noctua. I was only taking a shortcut to the
+    common room.\u201D "
+  - "Noctua: \u201CYou should know better than that. Also.. I\u2019ve noticed on
+    the surveillance cameras that you have been forgetting your medicine lately.\u201D "
+  - "Bonnie: \u201C...\u201D "
+  - "Noctua: \u201CAre you not taking this seriously? This behavior could get picked
+    up by more, until everyone decides that the medicination is useless!\u201D "
+  - "Noctua: \u201CHow do you think our Colony has survived for so long?\u201D"
+  - "Bonnie: \u201CThey followed rules.. and took their medication.\u201D "
+  - "Noctua: \u201CCorrect. Usually you would get punished, however I feel like you
+    will think next time you do something out of order.\u201D "
+  - "Bonnie: \u201C... I apologize again. I really am sorry.\u201D"
+  - "Noctua: \u201CI\u2019m sure you are.\u201D "
+  - "Bonnie: \u201C...\u201D "
+  - "Noctua: \u201CWe also need some extra help in the kitchen tomorrow. The Savior
+    needs their food and we don't have enough staff..\u201D "
+  - "Bonnie: \u201C...\u201D"
+  - "Noctua: \u201CNow go back to your room. No food for you today as well. Just
+    take your medication as soon as you get back, then go to bed again.\u201D "
   wordSpeed: 0.06
   playerIsClose: 0
   coolDown: 100
   prefab: {fileID: 2014603181}
-  spawnLocation: {fileID: 133040009}
+  spawnLocation: {fileID: 563155075}
 --- !u!61 &133040011
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -694,6 +715,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 441873957}
   m_CullTransparentMesh: 1
+--- !u!1 &563155074
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 563155075}
+  m_Layer: 0
+  m_Name: Ugglan spawnar here
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &563155075
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 563155074}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.38, y: -3.02, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &623430685
 GameObject:
   m_ObjectHideFlags: 0
@@ -1008,7 +1060,7 @@ Transform:
   m_GameObject: {fileID: 1427005695}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.68, y: -3, z: 0}
+  m_LocalPosition: {x: -6.91, y: -3, z: 0}
   m_LocalScale: {x: 0.1, y: 0.2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1440,3 +1492,4 @@ SceneRoots:
   - {fileID: 2014603183}
   - {fileID: 133040009}
   - {fileID: 1951338301}
+  - {fileID: 563155075}
