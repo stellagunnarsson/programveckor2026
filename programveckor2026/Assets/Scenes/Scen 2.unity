@@ -375,7 +375,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &659859280
 RectTransform:
   m_ObjectHideFlags: 0
@@ -570,7 +570,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 861213403}
   m_CullTransparentMesh: 1
---- !u!1 &1194566511
+--- !u!1 &1167500235
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -578,37 +578,37 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1194566515}
-  - component: {fileID: 1194566514}
-  - component: {fileID: 1194566513}
-  - component: {fileID: 1194566512}
+  - component: {fileID: 1167500239}
+  - component: {fileID: 1167500238}
+  - component: {fileID: 1167500237}
+  - component: {fileID: 1167500236}
   m_Layer: 0
-  m_Name: Door
+  m_Name: Ventil
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1194566512
+--- !u!114 &1167500236
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1194566511}
+  m_GameObject: {fileID: 1167500235}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f775a5d8ce3bc0b4ea7954f168ba3b8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SceneChanger
   newSceneName: Scen 3
---- !u!61 &1194566513
+--- !u!61 &1167500237
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1194566511}
+  m_GameObject: {fileID: 1167500235}
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
@@ -648,13 +648,13 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!212 &1194566514
+--- !u!212 &1167500238
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1194566511}
+  m_GameObject: {fileID: 1167500235}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -694,7 +694,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 3
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -706,17 +706,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!4 &1194566515
+--- !u!4 &1167500239
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1194566511}
+  m_GameObject: {fileID: 1167500235}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.1, y: -0.76, z: 0}
-  m_LocalScale: {x: 0.6683, y: 5.9994435, z: 1}
+  m_LocalPosition: {x: 8.98, y: 0.0284, z: 0}
+  m_LocalScale: {x: 0.5493, y: 10.161666, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -877,7 +877,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.13542175, y: -1.315356}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -887,7 +887,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 19.83265, y: 14.295406}
   m_EdgeRadius: 0
 --- !u!50 &1911992550
 Rigidbody2D:
@@ -983,7 +983,7 @@ Transform:
   m_GameObject: {fileID: 1911992547}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.0044073965, z: -0, w: 0.9999903}
-  m_LocalPosition: {x: 0.65, y: -3, z: 0}
+  m_LocalPosition: {x: 0.654, y: -2.706, z: 0}
   m_LocalScale: {x: 0.1, y: 0.2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -995,6 +995,6 @@ SceneRoots:
   m_Roots:
   - {fileID: 270942253}
   - {fileID: 1760394878}
+  - {fileID: 1167500239}
   - {fileID: 1911992552}
-  - {fileID: 1194566515}
   - {fileID: 114576339}
