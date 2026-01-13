@@ -236,8 +236,9 @@ MonoBehaviour:
   - "Noctua: \u201CYou should know better than that. Also.. I\u2019ve noticed on
     the surveillance cameras that you have been forgetting your medicine lately.\u201D "
   - "Bonnie: \u201C...\u201D "
-  - "Noctua: \u201CAre you not taking this seriously? This behavior could get picked
-    up by more, until everyone decides that the medicination is useless!\u201D "
+  - "Noctua: \u201CAre you not taking this seriously?\u201D"
+  - "Noctua: \u201CThis behavior could get picked up by more, until everyone decides
+    that the medicination is useless!\u201D"
   - "Noctua: \u201CHow do you think our Colony has survived for so long?\u201D"
   - "Bonnie: \u201CThey followed rules.. and took their medication.\u201D "
   - "Noctua: \u201CCorrect. Usually you would get punished, however I feel like you
@@ -459,7 +460,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f775a5d8ce3bc0b4ea7954f168ba3b8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SceneChanger
-  newSceneName: Scen 4
+  newSceneName: Scen 5.5
 --- !u!61 &406621848
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -757,7 +758,6 @@ GameObject:
   - component: {fileID: 623430689}
   - component: {fileID: 623430688}
   - component: {fileID: 623430687}
-  - component: {fileID: 623430686}
   m_Layer: 0
   m_Name: Door (1)
   m_TagString: Untagged
@@ -765,19 +765,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &623430686
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 623430685}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f775a5d8ce3bc0b4ea7954f168ba3b8b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SceneChanger
-  newSceneName: Scen 5.5
 --- !u!61 &623430687
 BoxCollider2D:
   m_ObjectHideFlags: 0
