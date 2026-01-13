@@ -427,6 +427,9 @@ MonoBehaviour:
   dialoguePanel: {fileID: 1403423827}
   dialogueText: {fileID: 1418204056}
   dialogue:
+  - "NOTE: Grafiken \xE4r inte klar s\xE5 vi har valt att anv\xE4nda placeholder
+    bilder :)"
+  - . . .
   - 'For more than a hundred years ago, mankind was almost entirely wiped out. '
   - It was when the monsters came. They slaughtered every living creature they could
     find.
