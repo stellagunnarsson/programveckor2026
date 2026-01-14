@@ -918,7 +918,7 @@ MonoBehaviour:
   - "Bonnie: \u201C.. Monster.\u201D "
   - "???: \u201CVa?\u201D "
   - Press Space To Throw Knife
-  wordSpeed: 0.06
+  wordSpeed: 0.04
   playerIsClose: 0
 --- !u!61 &1180497405
 BoxCollider2D:

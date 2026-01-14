@@ -487,7 +487,7 @@ MonoBehaviour:
   - "Bonnie\u2019s thoughts: \u201CI need to escape. This place isn't safe anymore.\u201D "
   - "Bonnie\u2019s thoughts: \u201C.. If I manage to make it to the outside world..\u201D "
   - "Bonnie\u2019s thoughts: \u201CWill there be monsters?\u201D "
-  wordSpeed: 0.06
+  wordSpeed: 0.04
   playerIsClose: 0
 --- !u!61 &585822969
 BoxCollider2D:

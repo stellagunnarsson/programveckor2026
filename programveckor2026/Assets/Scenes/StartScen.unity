@@ -446,7 +446,7 @@ MonoBehaviour:
   - 'At least that''s what they have been telling us.  '
   - ...
   - Hold Down D To Start Game
-  wordSpeed: 0.06
+  wordSpeed: 0.03
   playerIsClose: 0
 --- !u!61 &693249572
 BoxCollider2D:

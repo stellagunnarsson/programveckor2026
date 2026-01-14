@@ -156,7 +156,7 @@ MonoBehaviour:
   dialogue:
   - "\u201DYou exist, apparently. It seems your mask has started to rot a little.
     Perhaps you need a new one.\u201D"
-  wordSpeed: 0.06
+  wordSpeed: 0.04
   playerIsClose: 0
 --- !u!61 &26711268
 BoxCollider2D:
@@ -355,7 +355,7 @@ MonoBehaviour:
     you are looking for.\u201D"
   - "\u201CHandling lower fiends like us is not the dream for many, but it comes
     with much more respect.\u201D"
-  wordSpeed: 0.06
+  wordSpeed: 0.04
   playerIsClose: 0
 --- !u!61 &41131414
 BoxCollider2D:
@@ -1002,7 +1002,7 @@ MonoBehaviour:
   - " \u201DThere is your medication that you forgot to take.\u201D "
   - "\u201CThe higher ups say that it helps you from turning into a monster, but
     you seemingly have been doing fine without them.\u201D "
-  wordSpeed: 0.06
+  wordSpeed: 0.04
   playerIsClose: 0
 --- !u!61 &1045896180
 BoxCollider2D:

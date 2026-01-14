@@ -495,7 +495,7 @@ MonoBehaviour:
   - "Bonnie's thoughts: \u201CI doubt anyone is up.\u201D "
   - "Bonnie's thoughts: \u201CMay our Savior forgive me for my too close presence..
     or whatever.\u201D"
-  wordSpeed: 0.06
+  wordSpeed: 0.04
   playerIsClose: 0
 --- !u!61 &994957066
 BoxCollider2D:

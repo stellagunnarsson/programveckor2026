@@ -1186,7 +1186,7 @@ MonoBehaviour:
   - ...
   - The end.
   - Hold Down D To Exit Game
-  wordSpeed: 0.06
+  wordSpeed: 0.03
   playerIsClose: 0
 --- !u!61 &1718049364
 BoxCollider2D:

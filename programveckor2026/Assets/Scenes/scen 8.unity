@@ -372,7 +372,7 @@ MonoBehaviour:
   - "Bonnie: \u201COvis?\u201D "
   - "Noctua: \u201CWHO\u2019S THERE?!\u201D "
   - "Bonnie\u2019s thoughts: \u201CRUN\u201D "
-  wordSpeed: 0.06
+  wordSpeed: 0.04
   playerIsClose: 0
 --- !u!61 &696007605
 BoxCollider2D:
