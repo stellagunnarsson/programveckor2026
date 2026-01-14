@@ -119,6 +119,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &404611592 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8143675385903442125, guid: fad5631f3eb9cac4984310fd0e499cea, type: 3}
+  m_PrefabInstance: {fileID: 1363397528}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -399,7 +404,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 5
   m_Sprite: {fileID: -9023990566567842939, guid: f32a6061ea267604bbe4d51491ac338e, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.8, g: 0.8, b: 0.8, a: 1}
   m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
@@ -793,7 +798,7 @@ MonoBehaviour:
   fireButton: 0
   fireDirection: {x: 1, y: 0}
   coolDown: 2
-  prefab: {fileID: 8143675385903442125, guid: fad5631f3eb9cac4984310fd0e499cea, type: 3}
+  prefab: {fileID: 404611592}
   spawnLocation: {fileID: 853233969}
 --- !u!114 &853233971
 MonoBehaviour:
@@ -1075,7 +1080,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7137470740770388726, guid: fad5631f3eb9cac4984310fd0e499cea, type: 3}
       propertyPath: m_Size.y
-      value: 4.36
+      value: 5.77
       objectReference: {fileID: 0}
     - target: {fileID: 7137470740770388726, guid: fad5631f3eb9cac4984310fd0e499cea, type: 3}
       propertyPath: m_Offset.x
@@ -1083,7 +1088,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7137470740770388726, guid: fad5631f3eb9cac4984310fd0e499cea, type: 3}
       propertyPath: m_Offset.y
-      value: -0.49
+      value: -0.74
       objectReference: {fileID: 0}
     - target: {fileID: 7137470740770388726, guid: fad5631f3eb9cac4984310fd0e499cea, type: 3}
       propertyPath: m_IsTrigger
