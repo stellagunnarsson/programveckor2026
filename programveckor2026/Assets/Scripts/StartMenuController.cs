@@ -16,5 +16,13 @@ public class StartMenuController : MonoBehaviour
         Application.Quit();
     }
 
+    public void OnControlsClick()
+    {
+        SceneManager.LoadScene("Controls");
+    }
 
+    public void OnMenuClick()
+    {
+        SceneManager.LoadScene("StartMenu");
+    }
 }

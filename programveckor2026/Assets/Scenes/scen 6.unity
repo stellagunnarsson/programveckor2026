@@ -930,6 +930,7 @@ MonoBehaviour:
   - "Bonnie\u2019s thoughts: \u201CIs it smart to go out?\u201D "
   wordSpeed: 0.04
   playerIsClose: 0
+  DialougeLength: 4
 --- !u!1 &1567697555
 GameObject:
   m_ObjectHideFlags: 0

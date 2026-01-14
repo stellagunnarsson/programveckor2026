@@ -1137,9 +1137,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1537152275}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a0ef97c17161220458f17d751b3beea0, type: 3}
+  m_Script: {fileID: 11500000, guid: 9730328784971d349bb02590a60ad538, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Movement2
+  m_EditorClassIdentifier: Assembly-CSharp::SceneChangerMovement
 --- !u!1 &1718049362
 GameObject:
   m_ObjectHideFlags: 0
@@ -1185,7 +1185,7 @@ MonoBehaviour:
   - 'Although.. the face. '
   - ...
   - The end.
-  - Hold Down D To Exit Game
+  - Hold Down Space To Exit Game
   wordSpeed: 0.03
   playerIsClose: 0
 --- !u!61 &1718049364
@@ -1507,7 +1507,7 @@ SceneRoots:
   - {fileID: 1537152279}
   - {fileID: 1718049367}
   - {fileID: 633509268}
-  - {fileID: 1885939848}
   - {fileID: 1435735234}
   - {fileID: 2804449}
   - {fileID: 1423758331}
+  - {fileID: 1885939848}

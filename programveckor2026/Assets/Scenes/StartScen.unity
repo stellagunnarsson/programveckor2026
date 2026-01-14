@@ -445,7 +445,7 @@ MonoBehaviour:
   - "\u2026"
   - 'At least that''s what they have been telling us.  '
   - ...
-  - Hold Down D To Start Game
+  - Hold Down Space To Start Game
   wordSpeed: 0.03
   playerIsClose: 0
 --- !u!61 &693249572
@@ -1324,9 +1324,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1713243566}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a0ef97c17161220458f17d751b3beea0, type: 3}
+  m_Script: {fileID: 11500000, guid: 9730328784971d349bb02590a60ad538, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Movement2
+  m_EditorClassIdentifier: Assembly-CSharp::SceneChangerMovement
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

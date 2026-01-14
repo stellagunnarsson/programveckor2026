@@ -11,13 +11,13 @@ public class Player : MonoBehaviour
 
     public float wordSpeed;
     public bool playerIsClose;
-
+    public int DialougeLength;
 
 
     // Update is called once per frame
     void Update()
     {
-        if (playerIsClose)
+        if (DialougeLength >= 1)
         {
             if (!dialoguePanel.activeInHierarchy)
             {
@@ -31,6 +31,12 @@ public class Player : MonoBehaviour
             }
 
         }
+        else
+        {
+            dialoguePanel.SetActive(false);
+            return;
+        }
+
 
     }
 
@@ -52,11 +58,12 @@ public class Player : MonoBehaviour
 
     public void NextLine()
     {
-        if (index < dialogue.Length - 1)
+        if (index < dialogue.Length - 1 && DialougeLength >= 1)
         {
             index++;
             dialogueText.text = "";
             StartCoroutine(Typing());
+            DialougeLength = DialougeLength - 1;
         }
         else
         {
@@ -68,20 +75,6 @@ public class Player : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.CompareTag("Player"))
-        {
-            playerIsClose = true;
-        }
-    }
 
-    private void OnTriggerExit2D(Collider2D other)
-    {
-        if (other.CompareTag("Player"))
-        {
-            playerIsClose = false;
-            RemoveText();
-        }
-    }
+
 }

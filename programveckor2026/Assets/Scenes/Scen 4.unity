@@ -460,7 +460,7 @@ GameObject:
   - component: {fileID: 994957068}
   - component: {fileID: 994957067}
   - component: {fileID: 994957066}
-  - component: {fileID: 994957065}
+  - component: {fileID: 994957070}
   m_Layer: 0
   m_Name: Dialouge
   m_TagString: Untagged
@@ -468,35 +468,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &994957065
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 994957064}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: db1e3a3d1f612df41868fcc5338bc386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Player
-  dialoguePanel: {fileID: 1195230479}
-  dialogueText: {fileID: 1385837604}
-  dialogue:
-  - "Bonnie's thoughts: \u201CWhat should I do now..\u201D "
-  - "Bonnie's thoughts: \u201CI should go to the common room, even though I hate
-    the other children.\u201D "
-  - "Bonnie's thoughts: \u201CBut going there will take some time. Who\u2019s idea
-    was it to put the dorms so far away from the common room?!\u201D "
-  - "Bonnie's thoughts: \u201C.. I could also take this way.. it will lead to the
-    common room much much faster.. but that means I will pass the Savior\u2019s room.\u201D "
-  - "Bonnie's thoughts: \u201CLower fiends like me will definitely get scolded for
-    being too close to that room.. although it's very early in the morning.\u201D "
-  - "Bonnie's thoughts: \u201CI doubt anyone is up.\u201D "
-  - "Bonnie's thoughts: \u201CMay our Savior forgive me for my too close presence..
-    or whatever.\u201D"
-  wordSpeed: 0.04
-  playerIsClose: 0
 --- !u!61 &994957066
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -653,6 +624,36 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0.505, z: 0}
+--- !u!114 &994957070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 994957064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db1e3a3d1f612df41868fcc5338bc386, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Player
+  dialoguePanel: {fileID: 1195230479}
+  dialogueText: {fileID: 1385837604}
+  dialogue:
+  - "Bonnie's thoughts: \u201CWhat should I do now..\u201D "
+  - "Bonnie's thoughts: \u201CI should go to the common room, even though I hate
+    the other children.\u201D "
+  - "Bonnie's thoughts: \u201CBut going there will take some time. Who\u2019s idea
+    was it to put the dorms so far away from the common room?!\u201D "
+  - "Bonnie's thoughts: \u201C.. I could also take this way.. it will lead to the
+    common room much much faster.. but that means I will pass the Savior\u2019s room.\u201D "
+  - "Bonnie's thoughts: \u201CLower fiends like me will definitely get scolded for
+    being too close to that room.. although it's very early in the morning.\u201D "
+  - "Bonnie's thoughts: \u201CI doubt anyone is up.\u201D "
+  - "Bonnie's thoughts: \u201CMay our Savior forgive me for my too close presence..
+    or whatever.\u201D"
+  wordSpeed: 0.04
+  playerIsClose: 0
+  DialougeLength: 7
 --- !u!1 &1195230479
 GameObject:
   m_ObjectHideFlags: 0
