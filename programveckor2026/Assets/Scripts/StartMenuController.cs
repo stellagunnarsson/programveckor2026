@@ -21,8 +21,10 @@ public class StartMenuController : MonoBehaviour
         SceneManager.LoadScene("Controls");
     }
 
-    public void OnMenuClick()
+    public void OnBackClick()
     {
         SceneManager.LoadScene("StartMenu");
     }
+
+
 }

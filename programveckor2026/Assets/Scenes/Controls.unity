@@ -320,7 +320,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 174103175}
         m_TargetAssemblyTypeName: StartMenuController, Assembly-CSharp
-        m_MethodName: OnMenuClick
+        m_MethodName: OnBackClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -562,24 +562,25 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Controls:
+  m_text: '<b><size=110%>Controls:
 
-    WASD - Move
+    </b></size>WASD - Move
 
     Space - Shoot/Continue
 
-    E - Interact
+    E
+    - Interact
 
 
-    Disclaimer:
+    <b><size=110%>Disclaimer:
 
-    This
-    is a Visual Novel RPG. If you do not like reading, then this game is not for
-    you. Engagement in dialouge is necessary for understanding directions and story.
+    </b></size>Teraphobia is a type
+    of Visual Novel. Engagement in dialouge is necessary for understanding directions
+    and the overall story. If you do not like playing story-heavy games; this game
+    is not for you, and we advice you to try out something else.
 
 
-    If
-    you do not like Visual Novels, please don''t play our game.'
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
