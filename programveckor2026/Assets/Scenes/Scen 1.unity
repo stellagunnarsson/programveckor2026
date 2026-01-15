@@ -1035,6 +1035,14 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1791267205414537171, guid: fad5631f3eb9cac4984310fd0e499cea, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1791267205414537171, guid: fad5631f3eb9cac4984310fd0e499cea, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1791267205414537171, guid: fad5631f3eb9cac4984310fd0e499cea, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.53241
       objectReference: {fileID: 0}
@@ -1074,21 +1082,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3815303227025961921, guid: fad5631f3eb9cac4984310fd0e499cea, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -7482177786666212508, guid: 52d5f1462a754254ebac2858e43a07ab, type: 3}
+    - target: {fileID: 3815303227025961921, guid: fad5631f3eb9cac4984310fd0e499cea, type: 3}
+      propertyPath: m_Color.b
+      value: 0.74213827
+      objectReference: {fileID: 0}
+    - target: {fileID: 3815303227025961921, guid: fad5631f3eb9cac4984310fd0e499cea, type: 3}
+      propertyPath: m_Color.g
+      value: 0.74213827
+      objectReference: {fileID: 0}
+    - target: {fileID: 3815303227025961921, guid: fad5631f3eb9cac4984310fd0e499cea, type: 3}
+      propertyPath: m_Color.r
+      value: 0.74213827
+      objectReference: {fileID: 0}
     - target: {fileID: 7137470740770388726, guid: fad5631f3eb9cac4984310fd0e499cea, type: 3}
       propertyPath: m_Size.x
-      value: 4.93
+      value: 6.1734753
       objectReference: {fileID: 0}
     - target: {fileID: 7137470740770388726, guid: fad5631f3eb9cac4984310fd0e499cea, type: 3}
       propertyPath: m_Size.y
-      value: 5.77
+      value: 9.380102
       objectReference: {fileID: 0}
     - target: {fileID: 7137470740770388726, guid: fad5631f3eb9cac4984310fd0e499cea, type: 3}
       propertyPath: m_Offset.x
-      value: 0.01
+      value: -0.6117377
       objectReference: {fileID: 0}
     - target: {fileID: 7137470740770388726, guid: fad5631f3eb9cac4984310fd0e499cea, type: 3}
       propertyPath: m_Offset.y
-      value: -0.74
+      value: -0.539443
       objectReference: {fileID: 0}
     - target: {fileID: 7137470740770388726, guid: fad5631f3eb9cac4984310fd0e499cea, type: 3}
       propertyPath: m_IsTrigger
@@ -1097,6 +1121,14 @@ PrefabInstance:
     - target: {fileID: 7137470740770388726, guid: fad5631f3eb9cac4984310fd0e499cea, type: 3}
       propertyPath: m_EdgeRadius
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7137470740770388726, guid: fad5631f3eb9cac4984310fd0e499cea, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 8.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 7137470740770388726, guid: fad5631f3eb9cac4984310fd0e499cea, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 10.41
       objectReference: {fileID: 0}
     - target: {fileID: 8143675385903442125, guid: fad5631f3eb9cac4984310fd0e499cea, type: 3}
       propertyPath: m_Name
@@ -1196,7 +1228,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 6.96, y: 4.97}
+    oldSize: {x: 8.92, y: 10.22}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1278,9 +1310,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 4
-  m_Sprite: {fileID: 5889984542213746465, guid: 33a910fa3ff96884a8bf316ff378226d, type: 3}
-  m_Color: {r: 0.70980394, g: 0.039215688, b: 0.039215688, a: 1}
-  m_FlipX: 0
+  m_Sprite: {fileID: 5443975405208841529, guid: 6d20733c77e69de45b8971027e94cf93, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 1, y: 1}
@@ -1298,8 +1330,8 @@ Transform:
   m_GameObject: {fileID: 1671232079}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 51.1, y: 1.8, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_LocalPosition: {x: 51.1, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
