@@ -494,7 +494,7 @@ MonoBehaviour:
   - ...
   - ...
   - Press Space To Continue
-  wordSpeed: 0.03
+  wordSpeed: 0.02
   playerIsClose: 0
 --- !u!61 &342867237
 BoxCollider2D:

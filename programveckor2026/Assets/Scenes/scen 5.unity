@@ -251,7 +251,7 @@ MonoBehaviour:
   - "Bonnie: \u201C...\u201D"
   - "Noctua: \u201CNow go back to your room. No food for you today as well. Just
     take your medication as soon as you get back, then go to bed again.\u201D "
-  wordSpeed: 0.04
+  wordSpeed: 0.03
   playerIsClose: 0
   coolDown: 100
   prefab: {fileID: 2014603181}

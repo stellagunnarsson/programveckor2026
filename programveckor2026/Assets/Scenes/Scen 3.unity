@@ -469,7 +469,7 @@ MonoBehaviour:
   - "Bonnie: \u201DWhy would they want a lower fiend like you to do that? No offense.\u201D "
   - "Ovis: \u201D\u2026\u201D "
   - "Ovis: \u201DI think I want to get going now.\u201D "
-  wordSpeed: 0.04
+  wordSpeed: 0.03
   playerIsClose: 0
 --- !u!1 &909961384
 GameObject:

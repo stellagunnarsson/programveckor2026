@@ -806,7 +806,7 @@ MonoBehaviour:
   - "Bonnie\u2019s thoughts: \u201CBut- there is no going back. I need to find out
     what's really going on here.\u201D "
   - "Bonnie\u2019s thoughts: \u201CAnd .. if the monsters really do exist.\u201D "
-  wordSpeed: 0.04
+  wordSpeed: 0.03
   playerIsClose: 0
   DialougeLength: 4
 --- !u!61 &1730406678

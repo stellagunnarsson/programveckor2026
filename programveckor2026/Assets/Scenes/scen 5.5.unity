@@ -490,7 +490,7 @@ MonoBehaviour:
     will save us from an apocalypse hundred years ago!\u201D "
   - "Bonnie\u2019s thoughts: \u201CIf the Savior really loved us from the beginning,
     they wouldn't have let the monsters take over.\u201D "
-  wordSpeed: 0.04
+  wordSpeed: 0.03
   playerIsClose: 0
   DialougeLength: 4
 --- !u!61 &943226152
@@ -1185,8 +1185,8 @@ Transform:
   m_GameObject: {fileID: 1932546384}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.48, y: 0.12, z: 0}
-  m_LocalScale: {x: 0.6746, y: 5.978296, z: 1}
+  m_LocalPosition: {x: 8.74, y: -0.5433, z: 0}
+  m_LocalScale: {x: 0.29554227, y: 9.911422, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
