@@ -484,6 +484,14 @@ MonoBehaviour:
   dialoguePanel: {fileID: 1709866510}
   dialogueText: {fileID: 922447076}
   dialogue:
+  - "\u201CWoah-\u201D"
+  - "\u201C...\u201D "
+  - "\u201CAnother one of those insane dreams.\u201D "
+  - "\u201CMy mind is just playing tricks on me. I\u2019m safe, here in the colony.
+    \u201D "
+  - "\u201CAlthough, I wish I could see what the real world looks like.\u201D "
+  - "\u201C.. and what the monsters are like.\u201D "
+  - ...
   - ...
   - Hold Down Space To Continue
   wordSpeed: 0.03
