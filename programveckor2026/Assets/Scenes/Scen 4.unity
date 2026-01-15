@@ -653,7 +653,7 @@ MonoBehaviour:
     or whatever.\u201D"
   wordSpeed: 0.03
   playerIsClose: 0
-  DialougeLength: 7
+  DialougeLength: 6
 --- !u!1 &1195230479
 GameObject:
   m_ObjectHideFlags: 0

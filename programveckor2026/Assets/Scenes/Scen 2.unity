@@ -1003,7 +1003,6 @@ MonoBehaviour:
   - "\u201CThe higher ups say that it helps you from turning into a monster, but
     you seemingly have been doing fine without them.\u201D "
   - "\u201CExcept for my nightmares, like the one I just had.\u201D"
-  - "\u201CI wonder what the outer world really looks like.\u201D"
   wordSpeed: 0.03
   playerIsClose: 0
 --- !u!61 &1045896180

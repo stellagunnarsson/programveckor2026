@@ -489,7 +489,7 @@ MonoBehaviour:
   - "Bonnie\u2019s thoughts: \u201CWill there be monsters?\u201D "
   wordSpeed: 0.03
   playerIsClose: 0
-  DialougeLength: 5
+  DialougeLength: 4
 --- !u!61 &585822969
 BoxCollider2D:
   m_ObjectHideFlags: 0

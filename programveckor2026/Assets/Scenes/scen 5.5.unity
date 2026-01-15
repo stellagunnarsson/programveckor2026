@@ -492,7 +492,7 @@ MonoBehaviour:
     they wouldn't have let the monsters take over.\u201D "
   wordSpeed: 0.03
   playerIsClose: 0
-  DialougeLength: 4
+  DialougeLength: 3
 --- !u!61 &943226152
 BoxCollider2D:
   m_ObjectHideFlags: 0

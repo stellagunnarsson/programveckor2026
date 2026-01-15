@@ -920,7 +920,7 @@ MonoBehaviour:
   - Press Space To Throw Knife
   wordSpeed: 0.03
   playerIsClose: 0
-  DialougeLength: 13
+  DialougeLength: 12
 --- !u!61 &1180497405
 BoxCollider2D:
   m_ObjectHideFlags: 0

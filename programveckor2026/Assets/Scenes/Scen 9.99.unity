@@ -808,7 +808,7 @@ MonoBehaviour:
   - "Bonnie\u2019s thoughts: \u201CAnd .. if the monsters really do exist.\u201D "
   wordSpeed: 0.03
   playerIsClose: 0
-  DialougeLength: 4
+  DialougeLength: 3
 --- !u!61 &1730406678
 BoxCollider2D:
   m_ObjectHideFlags: 0
