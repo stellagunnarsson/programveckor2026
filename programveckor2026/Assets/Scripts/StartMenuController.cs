@@ -21,9 +21,9 @@ public class StartMenuController : MonoBehaviour
         SceneManager.LoadScene("Controls");
     }
 
-    public void OnBackClick()
+    public void OnCreditsClick()
     {
-        SceneManager.LoadScene("StartMenu");
+        SceneManager.LoadScene("Credits");
     }
 
 
