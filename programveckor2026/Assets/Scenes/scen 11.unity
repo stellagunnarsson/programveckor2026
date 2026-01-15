@@ -1185,7 +1185,7 @@ MonoBehaviour:
   - 'Although.. the face. '
   - ...
   - The end.
-  - Hold Down Space To Exit Game
+  - Press Space To Exit Game
   wordSpeed: 0.03
   playerIsClose: 0
 --- !u!61 &1718049364

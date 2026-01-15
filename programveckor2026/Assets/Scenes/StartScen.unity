@@ -445,7 +445,7 @@ MonoBehaviour:
   - "\u2026"
   - 'At least that''s what they have been telling us.  '
   - ...
-  - Hold Down Space To Start Game
+  - Press Space To Start Game
   wordSpeed: 0.03
   playerIsClose: 0
 --- !u!61 &693249572

@@ -493,7 +493,7 @@ MonoBehaviour:
   - "\u201C.. and what the monsters are like.\u201D "
   - ...
   - ...
-  - Hold Down Space To Continue
+  - Press Space To Continue
   wordSpeed: 0.03
   playerIsClose: 0
 --- !u!61 &342867237
