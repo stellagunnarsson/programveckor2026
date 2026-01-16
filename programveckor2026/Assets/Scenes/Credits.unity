@@ -178,8 +178,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: "<b><size=110%>Credits:\n</b></size>Programmering: Sara, Stella, Sally,
     Alisa\r\nScript: Stella\r\nDialog: Sally\r\nKarakt\xE4r grafik: Ethan och Damdin\r\nBakgrundsgrafik:
-    Sally \r\nPoster: Sally\r\nLjud och musik: Ethan och Alisa\r\n\n\n<I> Press Space
-    To Exit\n\n"
+    Damdin \r\nPoster: Sally\r\n\n\n<I> Press Space To Exit\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

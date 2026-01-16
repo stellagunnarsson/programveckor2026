@@ -427,8 +427,6 @@ MonoBehaviour:
   dialoguePanel: {fileID: 1403423827}
   dialogueText: {fileID: 1418204056}
   dialogue:
-  - "NOTE: Grafiken \xE4r inte klar s\xE5 vi har valt att anv\xE4nda placeholder
-    bilder :)"
   - . . .
   - 'For more than a hundred years ago, mankind was almost entirely wiped out. '
   - It was when the monsters came. They slaughtered every living creature they could
@@ -444,7 +442,6 @@ MonoBehaviour:
     known as The Savior, will save us one day and bring back how the world was before.
   - "\u2026"
   - 'At least that''s what they have been telling us.  '
-  - ...
   - Press Space To Start Game
   wordSpeed: 0.02
   playerIsClose: 0
