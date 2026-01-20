@@ -2,7 +2,10 @@ using UnityEngine;
 
 public class Movement2 : MonoBehaviour
 {
+
     Rigidbody2D rb;
+
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -12,6 +15,9 @@ public class Movement2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+
+
         rb.linearVelocity = new Vector2(0, 0);
 
         if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
