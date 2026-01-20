@@ -5,8 +5,7 @@ public class Movement2 : MonoBehaviour
 
     Rigidbody2D rb;
     public GameObject dialoguePanel;
-    public GameObject dialoguePanel2;
-    public GameObject dialoguePanel3;
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -18,15 +17,9 @@ public class Movement2 : MonoBehaviour
     void Update()
     {
 
-        if (!dialoguePanel.activeInHierarchy || !dialoguePanel2.activeInHierarchy || !dialoguePanel3.activeInHierarchy)
+        if (!dialoguePanel.activeInHierarchy)
         {
             rb.linearVelocity = new Vector2(0, 0);
-
-        }
-        else
-        {
-            rb.linearVelocity = new Vector2(0, 0);
-
             if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
             {
                 if (transform.position.x < 8.27)
@@ -45,6 +38,10 @@ public class Movement2 : MonoBehaviour
 
 
             }
+        }
+        else
+        {
+            rb.linearVelocity = new Vector2(0, 0);
         }
     }
 }
