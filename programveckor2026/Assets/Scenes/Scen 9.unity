@@ -1149,7 +1149,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1349ab217bb6b5b4e93f8d67e86fc0c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
-  velocity: {x: 8, y: 0}
+  velocity: {x: 8.5, y: 0}
   zigzagTime: 0
   zigzagdirection: 0
 --- !u!61 &1956749385
