@@ -21,7 +21,7 @@ public class Uggla : MonoBehaviour
     Transform spawnLocation;
 
     float timer = 0;
-
+    bool bort = true;
 
     // Update is called once per frame
     void Update()
@@ -65,6 +65,7 @@ public class Uggla : MonoBehaviour
     {
         dialogueText.text = "";
         index = 0;
+        playerIsClose = false;
         dialoguePanel.SetActive(false);
     }
 
@@ -87,10 +88,9 @@ public class Uggla : MonoBehaviour
         }
         else
         {
-            if (Input.GetKeyDown(KeyCode.E))
-            {
-                RemoveText();
-            }
+
+            RemoveText();
+            bort = false;
 
         }
     }
@@ -99,7 +99,10 @@ public class Uggla : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            playerIsClose = true;
+            if (bort == true)
+            {
+                playerIsClose = true;
+            }
         }
     }
 

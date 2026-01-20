@@ -289,6 +289,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0ef97c17161220458f17d751b3beea0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Movement2
+  dialoguePanel: {fileID: 1807065256}
 --- !u!61 &91921646
 BoxCollider2D:
   m_ObjectHideFlags: 0

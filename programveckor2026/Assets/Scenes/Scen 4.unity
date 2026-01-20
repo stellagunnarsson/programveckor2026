@@ -716,8 +716,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db1e3a3d1f612df41868fcc5338bc386, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Player
-  dialoguePanel: {fileID: 0}
-  dialogueText: {fileID: 0}
+  dialoguePanel: {fileID: 1188793713}
+  dialogueText: {fileID: 367923254}
   dialogue:
   - "Bonnie's thoughts: \u201CWhat should I do now..\u201D "
   - "Bonnie's thoughts: \u201CI should go to the common room, even though I hate
