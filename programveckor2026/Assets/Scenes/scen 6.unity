@@ -399,6 +399,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0ef97c17161220458f17d751b3beea0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Movement2
+  dialoguePanel: {fileID: 1342369771}
 --- !u!1 &404004355
 GameObject:
   m_ObjectHideFlags: 0
