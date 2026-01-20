@@ -1324,7 +1324,6 @@ GameObject:
   - component: {fileID: 1815007256}
   - component: {fileID: 1815007255}
   - component: {fileID: 1815007254}
-  - component: {fileID: 1815007253}
   m_Layer: 0
   m_Name: Ovis (1)
   m_TagString: Untagged
@@ -1332,45 +1331,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1815007253
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1815007252}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8c75f256790cbd249ac6ffb6d43e0508, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::NPC
-  dialoguePanel: {fileID: 0}
-  dialogueText: {fileID: 0}
-  dialogue:
-  - "Ovis: \u201DHi Bonnie! Pleasant to see you this morning.\u201D "
-  - "Bonnie: \u201DHm? Oh yeah, hi.\u201D "
-  - "Ovis: \u201D.. You look a little distressed today.. Is everything okay?\u201D "
-  - "Bonnie: \u201DDon\u2019t worry about me, just had a rough dream and can\u2019t
-    shake off this eerie feeling..\u201D "
-  - "Ovis: \u201DNeedless to say.. have you been taking your medication?\u201D "
-  - "Bonnie: \u201D.. Not really. I used to be fine without it.. I ought to start
-    taking it again if this continues.\u201D "
-  - "Ovis: \u201DAre you a lunatic?! The higher ups will slice you to pieces if they
-    find out you\u2019re not taking your medication!\u201D "
-  - "Bonnie: \u201CThey have enough trouble as it is .. I doubt they care if I skip
-    the pills one night or another .. since there are so many of us here.\u201D "
-  - "Ovis: \u201COh Bonnie, if only you had a little more care than this ..\u201D "
-  - "Ovis: \u201CBut.. What if you turn into one of them? The monsters! How are we
-    supposed to be friends if that happens?\u201D"
-  - "Bonnie: \u201CI guess we can\u2019t.\u201D "
-  - "Ovis: \u201DTake care. Oh- and also I forgot I had to leave now!\""
-  - "Ovis: \"One of the higher ups wanted me early to the cafeteria .. they need
-    my help with the food for our savior!\u201D "
-  - "Bonnie: \u201DWhy would they want a lower fiend like you to do that? No offense.\u201D "
-  - "Ovis: \u201D\u2026\u201D "
-  - "Ovis: \u201DI think I want to get going now.\u201D "
-  wordSpeed: 0.03
-  playerIsClose: 0
 --- !u!61 &1815007254
 BoxCollider2D:
   m_ObjectHideFlags: 0
