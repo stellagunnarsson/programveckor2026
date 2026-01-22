@@ -2367,7 +2367,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 8.228306, y: 2.703193}
+  m_Size: {x: 4.39, y: 2.703193}
   m_EdgeRadius: 0
 --- !u!70 &2002302249
 CapsuleCollider2D:
@@ -2404,7 +2404,7 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 3.98, y: 1.28}
+  m_Size: {x: 3.84, y: 1.28}
   m_Direction: 0
 --- !u!212 &2002302250
 SpriteRenderer:
@@ -2473,7 +2473,7 @@ Transform:
   m_GameObject: {fileID: 2002302246}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.0044073965, z: -0, w: 0.9999903}
-  m_LocalPosition: {x: -5.75, y: -2.7369, z: 0.1}
+  m_LocalPosition: {x: -4.97, y: -2.7369, z: 0.09}
   m_LocalScale: {x: 0.44770125, y: 0.4797819, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
