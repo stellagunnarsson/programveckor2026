@@ -908,12 +908,10 @@ MonoBehaviour:
   - "Bonnie: \u201C...\u201D "
   - "???: \u201C...\u201D "
   - "???: \u201CHej?\u201D "
-  - "Bonnie: \u201C...\u201D "
   - "???: \u201CBeh\xF6ver du hj\xE4lp?\u201D "
   - "Bonnie: \u201C...\u201D "
   - "???: \u201CDu ska nog inte vara ute s\xE5 h\xE4r sent.. det \xE4r riktigt kallt.
     Speciellt med de kl\xE4derna du har p\xE5 dig.\u201D "
-  - "Bonnie: \u201C...\u201D "
   - "???: \u201C\xC4r det n\xE5gon typ av kostym? Varf\xF6r ser du ut som en hare?\u201D "
   - "Bonnie: \u201C...\u201D "
   - "Bonnie: \u201C.. Monster.\u201D "
@@ -921,7 +919,7 @@ MonoBehaviour:
   - Press Space To Throw Knife
   wordSpeed: 0.03
   playerIsClose: 0
-  DialougeLength: 12
+  DialougeLength: 10
 --- !u!61 &1180497405
 BoxCollider2D:
   m_ObjectHideFlags: 0
